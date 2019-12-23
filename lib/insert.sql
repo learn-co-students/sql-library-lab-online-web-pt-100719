@@ -1,12 +1,12 @@
 INSERT INTO series (id, title, author_id, subgenre_id) VALUES (1, "Lord of the Rings", 1, 1);
 INSERT INTO series (id, title, author_id, subgenre_id) VALUES (2, "Chronicles of Narnia", 2, 1);
 
-INSERT INTO books (id, title, year, series_id) VALUES (1, "The Hobbit", "1937", 1);
-INSERT INTO books (id, title, year, series_id) VALUES (2, "The Fellowship of the Ring", "1954", 1);
-INSERT INTO books (id, title, year, series_id) VALUES (3, "The Two Towers", "1954", 1);
-INSERT INTO books (id, title, year, series_id) VALUES (4, "Return of the King", "1955", 2);
-INSERT INTO books (id, title, year, series_id) VALUES (5, "The Lion, The Witch and The Wardrobe", "1950", 2);
-INSERT INTO books (id, title, year, series_id) VALUES (6, "Prince Caspin", "1951", 2);
+INSERT INTO books (id, title, year, series_id) VALUES (1, "The Hobbit", 1937, 1);
+INSERT INTO books (id, title, year, series_id) VALUES (2, "The Fellowship of the Ring", 1954, 1);
+INSERT INTO books (id, title, year, series_id) VALUES (3, "The Two Towers", 1954, 1);
+INSERT INTO books (id, title, year, series_id) VALUES (4, "Return of the King", 1955, 2);
+INSERT INTO books (id, title, year, series_id) VALUES (5, "The Lion, The Witch and The Wardrobe", 1950, 2);
+INSERT INTO books (id, title, year, series_id) VALUES (6, "Prince Caspin", 1951, 2);
 
 INSERT INTO characters (id, name, species, motto, author_id) VALUES (1, "Frodo Baggins", "Hobbit", "Motto", 1);
 INSERT INTO characters (id, name, species, motto, author_id) VALUES (2, "Bilbo Baggins", "Hobbit", "Motto", 1);
