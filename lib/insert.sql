@@ -6,3 +6,11 @@ INSERT INTO books (title, year, series_id) VALUES ("Harry Potter and the Prisone
 INSERT INTO books (title, year, series_id) VALUES ("The Lightening Thief", 2005, 2);
 INSERT INTO books (title, year, series_id) VALUES ("The Titan's Curse", 2007, 2);
 INSERT INTO books (title, year, series_id) VALUES ("The Battle of Labyrinth", 2008, 2);
+INSERT INTO characters (name, motto, species) VALUES ("Harry Potter", "Orphan Wizard", "Wizard");
+INSERT INTO characters (name, motto, species) VALUES ("Hermione Granger", "Intelligent Wizard", "Wizard");
+INSERT INTO characters (name, motto, species) VALUES ("Hedwig", "Snowy Owl", "Owl");
+INSERT INTO characters (name, motto, species) VALUES ("Ron Weasley", "Wingman", "Wizard");
+INSERT INTO characters (name, motto, species) VALUES ("Percy Jackson", "Son of Poseidon", "Mortal");
+INSERT INTO characters (name, motto, species) VALUES ("Luke Castellan", "Son of Hermes", "Demigod");
+INSERT INTO characters (name, motto, species) VALUES ("Annabeth Chase", "Wise Girl", "Demigod");
+INSERT INTO characters (name, motto, species) VALUES ("Tyson", "Son of Poseidon", "Cyclops");
